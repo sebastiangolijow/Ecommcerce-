@@ -1,0 +1,23 @@
+.containerReview{
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+
+    input[type="radio"] {
+        display:none
+    }
+}
+.formReview{
+    font-size: 100%;
+    display:flex;
+    flex-direction: column;
+
+    textarea{
+        width: 50%;
+    }
+}
+
+.star{
+    cursor: pointer;
+    transition: color 200ms
+}

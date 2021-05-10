@@ -1,0 +1,36 @@
+$minwidth: 600px;
+// $midwidth: 900px;
+// $dark:#2C3A40;
+$dark: #424242;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+
+
+  main {
+    min-height: calc(100vh - 5rem);
+    width: 100%;
+    //height: min-content;
+  }
+
+  @media screen and (min-width: $minwidth) {
+    main {
+      height: 100%;
+      width: 100%;
+      // border: solid;
+      // border-color: rgba(233, 233, 233, 0.849);
+      // border-width: 1px;
+      // box-shadow: 0 6px 6px 0px black;
+    }
+  }
+}
+.containerDark{
+  @extend .container;
+  background-color: $dark;
+  main{
+    border: 1px solid $dark;
+  }
+}

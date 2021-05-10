@@ -1,0 +1,48 @@
+.div {  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20rem;
+  width: 35rem;
+  background-color: white;
+  border-radius: 4px;
+  
+  div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  label {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  input {
+    border: 1px solid #A2A6B0;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 4px;
+  }
+
+  button {
+    align-self: center;
+    border: 2px solid #9ABF15;
+    background-color: #9ABF15;
+    margin-top: 1rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:white;
+    margin-bottom: 1rem;
+
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

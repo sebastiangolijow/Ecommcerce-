@@ -1,0 +1,128 @@
+.upload {
+  display: flex;
+  justify-content: center;
+
+  .input2 {
+    border: 1px solid #A2A6B0;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 4px;
+  }
+
+  .button2 {
+    border: 2px solid #9ABF15;
+    background-color: #9ABF15;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:white;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.div {  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+  width: 100%;
+    min-height: calc(100vh - 203px);
+
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  label {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  textarea {
+    border: 1px solid #A2A6B0;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    width: 25rem;
+    height: 4rem;
+    border-radius: 4px;
+  }
+
+  option {
+    border: 0.1px solid #e4e7f0;
+    background: #FFFFFF;
+    width: 20rem;
+    height: 1rem;
+  }
+  select {
+    margin-bottom: 20px;
+
+  }
+  input {
+    border: 1px solid #A2A6B0;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 4px;
+  }
+
+  button {
+    border: 2px solid #9ABF15;
+    background-color: #9ABF15;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:white;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  border: 2px solid #9ABF15;
+  background-color: #9ABF15;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color:white;
+  font-size: 1rem;
+  margin-top: 6rem;
+  margin-left: 15rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+  
+}
+
+.button3 {
+  border: 2px solid #9ABF15;
+  background-color: #9ABF15;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 2rem;
+  color:white;
+  fill: white
+}

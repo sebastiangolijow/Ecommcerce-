@@ -1,0 +1,181 @@
+.container {
+  //margin: 1rem;
+  min-height: calc(100vh - 185px);
+  margin: 1rem 5rem 1rem 5rem;
+
+  .search {
+    //margin-bottom: -1rem;
+    border: 2px solid #9abf15;
+    background: #FFFFFF;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 4px;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+  }
+  .containerList {
+    flex-direction: column;
+    margin-top: 1rem;
+    
+  }
+  
+  .bar {
+    justify-content: space-between;
+    border-bottom: 1px solid #9abf15;
+
+  .name {
+    flex: 1;
+  }
+}
+
+.name {
+  flex: 1;
+}
+
+.iconSelect {
+  border: 2px solid #9abf15;
+  background-color: #9abf15;
+  height: 2rem;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.iconSelectDisable{
+  border: 2px solid #a3a3a3;
+  background-color: #a3a3a3;
+  height: 2rem;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.iconDelete {
+  border: 2px solid #9abf15;
+  background-color: #9abf15;
+  height: 1.5rem;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.list {
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #d1e687;
+  align-items: center;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+
+
+
+  .icon {
+    margin-right: 1rem;
+    height: 1.5rem;
+    cursor: pointer;
+    fill: #9abf15;
+  }
+}
+}
+.modal {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.barButtons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  button {
+    border: 2px solid #9abf15;
+    background-color: #9abf15;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    margin-right: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+.buttonfilter {
+  border: 2px solid #9abf15;
+  background-color: #9abf15;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  margin-left: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+}
+
+.buttonpage {
+    border: 2px solid #9abf15;
+    background-color: #9abf15;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    margin: 1rem;
+
+
+    &:hover {
+      cursor: pointer;
+    }
+  
+}
+
+.currentpage {
+
+  border: 2px solid #9abf15;
+  background-color: #9abf15;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  margin: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+}
+
+.paginate {
+display: flex;
+justify-content: center;
+}
+
+.barFilters{
+  margin-top: 2rem;
+  margin-top: 2rem;
+
+  align-items: center;
+  span{
+    margin-left: 3rem;
+
+  }
+}

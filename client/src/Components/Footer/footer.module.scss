@@ -1,0 +1,140 @@
+$color:#485F69;
+$verde: #9abf15;
+$phone: 600px;
+$tablet:768px;
+$laptop:992px;
+$pc:1200px;
+$pcxl:2100px;
+$gris:#2C3A40;
+
+.container {
+    display: flex;
+    //align-items: center;
+    color: #fff;
+    background-color: #222;
+    min-height: 20rem;
+    justify-content: space-between;
+
+    @media screen and (max-width: $tablet) {
+        flex-direction: column-reverse;
+    }
+
+    .info {
+        min-height: 100%;
+        width: 50%;
+        padding: 0 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        @media screen and (max-width: $tablet) {
+            padding:1rem;
+            width: 100%;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            height: 20%;
+        }
+
+        .text {
+            height: 70%;
+            font-size: 1.25rem;
+            margin: 0;
+            padding-top: 1rem;
+
+            a {
+                transition: 0.5s;
+                color: $verde;
+                margin: 0;
+                padding: 0;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+
+    .routes {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        min-height: 100%;
+
+        @media screen and (max-width: $tablet) {
+            width: 100%;
+        }
+
+
+        .links {
+            min-height: 30%;
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            margin: 0 auto;
+
+            .link {
+                display: flex;
+                align-items: center;
+                transition: 0.5s;
+                font-size: 1.5rem;
+                margin: 0 2.5rem;
+                @media screen and (max-width: $tablet) {
+                    margin: 1rem;
+
+                }
+            
+
+                &:hover {
+                    color: $verde;
+                }
+            }
+        }
+
+        .game {
+            min-height: 70%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+
+            .link {
+                height: 20%;
+                display: flex;
+                font-size: 1.5rem;
+                justify-content: center;
+                transition: 0.5s;
+                @media screen and (max-width: $tablet) {
+                    text-align: center;
+                }
+                &:hover {
+                    color: $verde;
+                }
+            }
+
+            .image {
+                display: flex;
+                justify-content: center;
+                height: 30%;
+                transition: 0.5s;
+
+                img {
+                    margin: auto;
+                    width: 12%;
+                    height: 80%;
+                    @media screen and (max-width: $tablet) {
+                        width: 35%;
+                    }
+
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+    }
+}

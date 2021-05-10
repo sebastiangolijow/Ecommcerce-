@@ -1,0 +1,23 @@
+/* .container {
+    display: flex;
+    width: 90%;
+    min-height: 70%;
+    justify-content: center;
+    margin: auto;
+
+    img {
+        min-height: 80%;
+        width: 100%;
+        margin: auto;
+    }
+
+} */
+.container {
+    padding:3rem;
+    img {
+        display: block;
+        width: 100%;
+        height: inherit;
+        border-radius: 1rem;
+    }
+}

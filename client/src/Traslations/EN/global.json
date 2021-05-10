@@ -1,0 +1,147 @@
+{
+  "home": {
+    "title": "TOP PRODUCTS & DEALS"
+  },
+
+  "home2": {
+    "lastProduct": "This product has to be yours!"
+  },
+
+  "seeProducts": {
+    "products": "See all products"
+  },
+
+  "home-cat1": {
+    "processors": "Processors"
+  },
+
+  "home-cat2": {
+    "laptops": "Laptops"
+  },
+
+  "home-cat3": {
+    "keyboards": "Keyboards"
+  },
+
+  "navLink1": {
+    "linkOne": "Home"
+  },
+
+  "navLink2": {
+    "linkTwo": "Catalogue"
+  },
+
+  "navLink3": {
+    "linkThree": "Add product"
+  },
+
+  "navLink4": {
+    "linkFour": "Log In"
+  },
+
+  "navLink5": {
+    "linkFive": "Register"
+  },
+
+  "navLink6": {
+    "linkSix": "Control Panel"
+  },
+
+  "footer": {
+    "textOne": "Sign up to our NewsLetter",
+    "textTwo": "Suscribe",
+    "texThree": "Information",
+    "textFour": "PC parts",
+    "textFive": "Desktop PC",
+    "textSix": "Laptops",
+    "placeholder": "E-mail..."
+  },
+
+  "card": {
+    "textOne": "Add to Cart",
+    "textTwo": "Sorry",
+    "texThree": "Come back in a few days",
+    "textFour": "Sold out",
+    "textFive": "On stock",
+    "alert": "Added to your cart"
+  },
+
+  "catalogue": {
+    "textOne": "Search...",
+    "textTwo": "Filters",
+    "texThree": "Categories",
+    "textFour": "All",
+    "textFive": "Prices",
+    "textSix": "All",
+    "textSeven": "All Brands",
+    "textEight": "All",
+    "category": "Category",
+    "prices": "Price range",
+    "view": "Change View"
+  },
+
+  "modifyProduct":{
+    "title":"Modify Product",
+    "title1":"Title",
+    "title2":"Description",
+    "title3":"Price",
+    "title4":"Brand",
+    "title5":"Model",
+    "title6":"Stock",
+    "title7":"Ranking",
+    "title8":"Storage",
+    "title9":"Selected categories",
+    "title10":"Add or delete images",
+    "title11":"Update Images",
+    "title12":"Modify product"
+  },
+
+  "addProduct":{
+    "title":"Add product",
+    "title1":"Title",
+    "title2":"Description",
+    "title3":"Price",
+    "title4":"Brand",
+    "title5":"Model",
+    "title6":"Stock",
+    "title7":"Ranking",
+    "title8":"Storage",
+    "title9":"Select Categories",
+    "title10":"Add images",
+    "title11":"Add images",
+    "title12":"Create Product",
+    "title13":"Add Category"
+  },
+  "about": {
+    "title": "Meet the team",
+    "description": "We are a team of ten people passionate about learn and programming. This e-commerce is the final project of the intensive bootcamp Soy Henry."
+  },
+  "login": {
+    "button": "LogIn",
+    "forgot": "Forgot password?",
+    "github": "Sign in with GitHub"
+  },
+  "l": {
+    "language": "Language"
+  },
+  "bar": {
+    "1": "Wishlist",
+    "2": "Account",
+    "3": "Profile",
+    "4": "Log Out",
+    "5": "Catalogue",
+    "6": "Cart",
+    "7": "Profile",
+    "8": "Login",
+    "search": "Search..."
+  },
+  "checkout": {
+    "checkout": "Checkout",
+    "ty": "Thank you for your order",
+    "detail": "Your order number is #2001539. We have emailed your order confirmation, and will send you an update when your order has shipped.",
+    "back": "Back",
+    "shopping": "CONTINUE SHOPPING",
+    "payment": "Go to payment",
+    "next": "NEXT"
+  }
+}

@@ -1,0 +1,33 @@
+$phone: 600px;
+$tablet:768px;
+$laptop:992px;
+$pc:1200px;
+$pcxl:1600px;
+
+.swiper-slide {
+
+    @media screen and (min-width: $laptop) {
+        height: 20rem;
+    }
+
+    @media screen and (min-width: $pcxl) {
+        height: 25rem;
+    }
+}
+
+.swiper-button-prev {
+    color: transparent;
+    transition: 0.5s;
+    background-color: #fff;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    //border: 1px solid black;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.swiper-button-next {
+    @extend .swiper-button-prev;
+
+}

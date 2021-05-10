@@ -1,0 +1,146 @@
+{
+    "home": {
+      "title": "PRODUCTOS MÁS VENDIDOS"
+    },
+
+    "home2": {
+      "lastProduct": "¡Este producto tiene que ser tuyo!"
+    },
+
+    "seeProducts": {
+        "products": "Mira todos los productos"
+      },
+
+  "home-cat1": {
+    "processors": "Procesadores"
+  },
+
+  "home-cat2": {
+    "laptops": "Notebooks"
+  },
+
+  "home-cat3": {
+    "keyboards": "Teclados"
+  },
+
+  "navLink1": {
+    "linkOne": "Inicio"
+  },
+
+  "navLink2": {
+    "linkTwo": "Catálogo"
+  },
+
+  "navLink3": {
+    "linkThree": "Agregar producto"
+  },
+
+  "navLink4": {
+    "linkFour": "Ingresar"
+  },
+
+  "navLink5": {
+    "linkFive": "Registrarse"
+  },
+
+  "navLink6": {
+    "linkSix": "Panel de Control"
+  },
+
+  "footer": {
+    "textOne": "Suscribite a nuestro boletín informativo",
+    "textTwo": "Suscribirse",
+    "texThree": "Información",
+    "textFour": "Componentes",
+    "textFive": "Computadoras de escritorio",
+    "textSix": "Notebooks",
+    "placeholder": "Dirección de correo..."
+  },
+
+  "card": {
+    "textOne": "Agregar al carrito",
+    "textTwo": "¡Perdón!",
+    "texThree": "Volve en unos días",
+    "textFour": "Sin stock",
+    "textFive": "En stock",
+    "alert": "Agregado a tu carrito"
+  },
+
+  "catalogue": {
+    "textOne": "Buscar...",
+    "textTwo": "Filtros",
+    "texThree": "Categorías",
+    "textFour": "Todas",
+    "textFive": "Precios",
+    "textSix": "Todos",
+    "textSeven": "Marcas",
+    "textEight": "Todas",
+    "category": "Categoría",
+    "prices": "Rango de precios",
+    "view": "Cambiar vista"
+  },
+
+  "modifyProduct":{
+    "title":"Modificar Producto",
+    "title1":"titulo",
+    "title2":"Descripción",
+    "title3":"Precio",
+    "title4":"Marca",
+    "title5":"Modelo",
+    "title6":"Stock",
+    "title7":"Calificación",
+    "title8":"Almacenamiento",
+    "title9":"Categorías seleccionadas",
+    "title10":"Añadir o eliminar imagenes",
+    "title11":"Actualizar imagenes",
+    "title12":"Modificar producto"
+  },
+  "addProduct":{
+    "title":"Añadir Producto",
+    "title1":"Titulo",
+    "title2":"Descripción",
+    "title3":"Precio",
+    "title4":"Marca",
+    "title5":"Modelo",
+    "title6":"Stock",
+    "title7":"Calificación",
+    "title8":"Almacenamiento",
+    "title9":"Seleccionar categorías",
+    "title10":"Añadir imágenes",
+    "title11":"Añadir imagenes",
+    "title12":"Crear Producto",
+    "title13":"Añadir categoría"
+  },
+  "about": {
+    "title": "Conoce a nuestro equipo",
+    "description": "Somos diez personas apasionadas por aprender, asumir nuevos desafíos y programar. Este e-commerce es el proyecto final de Soy Henry."
+  },
+  "login": {
+    "button": "Ingresar",
+    "forgot": "Olvidé mi contraseña",
+    "github": "Ingresar con GitHub"
+  },
+  "l": {
+    "language": "Lenguaje"
+  },
+  "bar": {
+    "1": "Favoritos",
+    "2": "Mi cuenta",
+    "3": "Perfil",
+    "4": "Cerrar sesión",
+    "5": "Catálogo",
+    "6": "Carrito",
+    "7": "Mi perfil",
+    "8": "Ingresar",
+    "search": "Buscar..."
+  },
+  "checkout": {
+    "checkout": "Checkout",
+    "ty": "Gracias por tu pedido",
+    "detail": "Tu número de pedido es # 2001539. Hemos enviado la confirmación de tu pedido por correo electrónico y te enviaremos una actualización cuando se haya despachado.",
+    "back": "Volver",
+    "shopping": "SEGUIR COMPRANDO",
+    "payment": "Ir a pagar",
+    "next": "SIGUIENTE"
+  }
+}

@@ -1,0 +1,53 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contents{
+        width: 80%;
+        height: 90%;
+        border: solid #9abf15;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            align-self: center;
+            margin: 2rem;
+        }
+
+        .titles{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            li{
+                list-style: none;
+            }
+        }
+        .contentsAppointment{
+            border: solid 1px #9abf15;
+            .appointments{
+                    @extend .titles;
+                    li{
+                        font-weight: normal;
+                        .button{
+                            background: #9abf15;
+                            border-radius: 30px;
+                            border: 0;
+                            color: white;
+                            padding: 10;
+                            height: 30;
+                            margin: auto;
+                            font-size: 1rem;
+                            font-weight: bolder;
+                        }
+                        .button:hover {
+                            background-color: white;
+                            color: black;
+                            border: 1px solid #000
+                        }
+                    }
+            }
+        }
+    }
+}

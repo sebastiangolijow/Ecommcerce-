@@ -1,0 +1,121 @@
+.containerAbout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .cardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 15rem;
+    margin: 20px;
+    box-shadow: 0px 0px 15px darkolivegreen;
+    border-radius: 10px;
+  }
+
+  .card:hover{
+    box-shadow: 0px 0px 30px darkolivegreen;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+    .name{
+      transform: scale(1.2);
+      transition: 0.5s;
+
+    }
+
+    .logos{
+        width:180px;
+        transition: 0.3s
+    }
+    .logo{
+      transform: scale(1.2);
+      transition: 0.5s;
+    }
+    .cntImg{
+      img{
+        filter: grayscale(0%);
+      }
+    }
+  }
+
+  .cntImg{
+    filter: grayscale(0%);
+  }
+
+  .logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .cardDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #9ABF15;
+    background-size: cover;
+    padding-bottom: 5px;
+    height: 7.5rem;
+    justify-content: space-around;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+
+
+  }
+}
+.imgCnt{
+  width: 20rem;
+  z-index: 4;
+}
+.title{
+  font-size: 35px;
+}
+
+.cntImg{
+  background-image: url('https://res.cloudinary.com/techstore/image/upload/v1620014393/fondo_wdbvww.jpg');
+  background-size: cover;
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px
+
+}
+
+.name{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-shadow:0px 0px 15px black;
+}
+
+.tdescription{
+  font-size: 20px;
+  width: fit-content;
+  max-width: 40rem;
+  text-align: center;
+  padding: 2rem
+}
+
+.logos{
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+
+}
+.logo{
+  display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 10px black);
+
+}

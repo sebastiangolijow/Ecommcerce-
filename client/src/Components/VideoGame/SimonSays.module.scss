@@ -1,0 +1,183 @@
+.container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 4rem);
+  // z-index: 1;
+}
+
+.gameboard {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 60vh;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.celeste {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: left;
+  border-radius: 15px;
+  background: #9abf15;
+  cursor: pointer;
+}
+
+.celeste_light {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: left;
+  border-radius: 15px;
+  background: #badc58;
+  cursor: pointer;
+}
+
+.violeta {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: right;
+  border-radius: 15px;
+  background: #222;
+  cursor: pointer;
+}
+
+.violeta_light {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: right;
+  border-radius: 15px;
+  background: #555;
+  cursor: pointer;
+}
+
+.naranja {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: left;
+  border-radius: 15px;
+  background: #222;
+  cursor: pointer;
+}
+
+.naranja_light {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: left;
+  border-radius: 15px;
+  background: #555;
+  cursor: pointer;
+}
+
+.verde {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: right;
+  border-radius: 15px;
+  background: #9abf15;
+  cursor: pointer;
+}
+
+.verde_light {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: right;
+  border-radius: 15px;
+  background: #badc58;
+  cursor: pointer;
+}
+
+.btn_start {
+  width: 10rem;
+  height: 4rem;
+  background: #9abf15;
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  top: calc(50% + 1rem);
+  left: calc(50% - 5rem);
+  border-radius: 3rem;
+  border: 0.2rem solid #222;
+  cursor: pointer;
+  transition: 0.5s ease-in ;
+
+  &:hover {
+    background-color: #fff;
+    color: black;
+  }
+}
+
+.btnD_start {
+  @extend .btn_start;
+
+
+  &:hover {
+    border: 0.2rem solid #2C3A40;
+    background-color: #222;
+    color: #fff;
+  }
+}
+
+.score {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  background: #9abf15;
+  color: #fff;
+  border-radius: 5rem;
+  top: calc(50%);
+  left: calc(50% - 3rem);
+  font-size: 1.5rem;
+  border: 0.2rem solid #222;
+  transition: 0.5s;
+}
+
+.scoreD {
+  @extend .score;
+
+
+  border: 0.2rem solid #2C3A40;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+.final_score {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 6rem;
+  font-size: 1.5rem;
+  z-index: 2;
+  color: #fff;
+}

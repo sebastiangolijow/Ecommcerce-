@@ -1,0 +1,510 @@
+$color:#485F69;
+$verde: #9abf15;
+$phone: 600px;
+$tablet:768px;
+$laptop:992px;
+$pc:1200px;
+$pcxl:2100px;
+$gris:#2C3A40;
+
+.container {
+  z-index: 1;
+  margin: auto;
+  min-height: calc(100vh - 4rem);
+  display: flex;
+  color: black;
+
+  flex-direction: column;
+  background-color: transparent;
+  overflow: hidden;
+
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    height: 2rem;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    @media screen and (max-width: $tablet) {
+      z-index: 2;
+      justify-content: space-evenly;
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+      margin: 0 1.5rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      transition: 0.5s;
+
+      &:hover {
+        color: #9abf15;
+        text-decoration: underline;
+      }
+
+      @media screen and (max-width: $tablet) {
+        &:hover {
+          text-decoration: underline #9abf15;
+        }
+      }
+    }
+
+    .full {
+      @media screen and (max-width: $tablet) {
+        display: none;
+        visibility: hidden;
+      }
+
+    }
+  }
+
+  .main {
+    display: flex;
+    width: 90%;
+    height: 40rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+    @media screen and (max-width: $tablet) {
+      flex-direction: column-reverse;
+      height: 65%;
+    }
+
+    .details {
+      width: 50%;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+        background-color: transparent !important;
+      }
+
+      .info {
+
+        padding: 2rem;
+        min-height: 100%;
+        background-color: #e9e9e9;
+
+        @media screen and (max-width: $tablet) {
+          background-color: transparent;
+
+          span {
+            display: flex;
+            font-size: 4vh !important;
+            justify-content: center;
+          }
+        }
+
+        .name {
+          height: 10%;
+          margin: auto;
+          width: 80%;
+          display: flex;
+          align-items: center;
+          text-align: left;
+
+          span {
+
+            @media screen and (min-width: $tablet) {
+              margin: 0 auto;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+
+            }
+          }
+        }
+
+        .desc {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          height: 90%;
+          margin: auto;
+
+          .values {
+            padding: 1rem;
+            height: 100%;
+            list-style: none;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+
+            .qr {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            li {
+              margin: 1vh 0;
+
+              p {
+                margin: 0 auto;
+              }
+
+            }
+
+            li:first-letter {
+              text-transform: capitalize;
+            }
+          }
+
+          button {
+            padding: 1.5vh 2vh;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            background-color: #9abf15;
+            color: white;
+            font-weight: bold;
+            transition: 0.5s;
+
+            @media screen and (max-width: $tablet) {
+              width: 70%;
+              order: 2;
+            }
+
+            &:hover {
+              background-color: #fff;
+              color: black;
+              border: 1px solid #9abf15;
+            }
+          }
+        }
+
+
+        span {
+          font-size: 2vw;
+
+          @media screen and (max-width: $tablet) {
+            font-size: 5vw;
+          }
+
+          font-weight: bold;
+        }
+      }
+    }
+
+    .images {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      min-height: 90%;
+
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+      }
+
+      .carousel {
+        display: flex;
+        margin: auto;
+        max-height: 90%;
+        width: 90%;
+
+
+        @media screen and (max-width: $tablet) {
+          padding: 2vh;
+        }
+
+        /* ul {
+          display: flex;
+          padding: 0;
+          justify-content: space-between;
+          height: 100px;
+
+          li {
+            margin: auto;
+            //border-color: #9ABF15;
+          }
+        } */
+      }
+
+      .buy {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        min-height: 10%;
+        width: 80%;
+
+        @media screen and (max-width: $tablet) {
+          flex-wrap: wrap;
+          width: 90%;
+        }
+
+        .change {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          outline: none;
+
+          .cont {
+            background-color: #e9e9e9;
+            border: none;
+            border-radius: 1vh;
+            display: flex;
+            align-items: center;
+
+            input {
+              border: none;
+              outline: none;
+              text-align: center;
+              font-weight: bold;
+              font-size: 1.2rem;
+              width: 40px;
+              height: 30px;
+              background-color: transparent;
+            }
+
+            /* @media screen and (max-width: $tablet) {
+              order: 1;
+            } */
+          }
+
+          button {
+            display: flex;
+            height: 1.5rem;
+            width: 1.5rem;
+            border: none;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            margin: 0.5rem;
+            outline: none;
+            background-color: $verde;
+            transition: 0.3s;
+            color: white;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px 0px rgba(0, 0, 0);
+            border: 2px solid $verde;
+
+            &:hover {
+              box-shadow: none;
+              transform: translate(2px, 2px);
+              background-color: #fff;
+              color: black;
+              border: 2px solid $verde;
+            }
+          }
+        }
+
+        .addCart {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 30%;
+          padding: 0.5rem 1rem;
+          border: none;
+          cursor: pointer;
+          font-weight: bolder;
+          font-style: normal;
+          outline: none;
+          border: 3px solid $verde;
+          border-radius: 30px;
+          color: #fff;
+          background-color: $verde;
+          transition: 0.3s;
+          font-family: -apple-system, Roboto, sans-serif;
+
+          @media screen and (max-width: $tablet) {
+            width: 40%;
+          }
+
+          &:hover {
+            background-color: transparent;
+            color: $verde;
+            box-shadow: none;
+          }
+
+          span {
+            font-size: 1rem;
+
+            @media screen and (max-width: $tablet) {
+              font-size: 0.8rem;
+            }
+          }
+        }
+
+        label {
+          @media screen and (max-width: $tablet) {
+            order: 3;
+            width: 100%;
+          }
+
+          width: 40%;
+          padding: 5px;
+          background-color: #e9e9e9;
+          margin: 1vh;
+          text-align: center;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  .review {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    .reviewTitle {
+      span {
+        font-size: 2rem;
+      }
+    }
+
+    .reviews {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .notReviews {
+      @extend .reviews;
+      justify-content: center;
+      align-items: center;
+    }
+
+    hr {
+      width: 100%;
+      box-shadow: 2px 0px 10px 0px rgba(255, 255, 255, 0.25)
+    }
+
+  }
+
+  .related {
+
+    margin: auto;
+    width: 95%;
+    display: flex;
+    height: 25rem;
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: $tablet) {
+      width: 95%;
+      flex-direction: column;
+    }
+
+    .more {
+      z-index: 2;
+      min-width: 15%;
+      background-color:#222;
+      color: white;
+      font-size: 1.5vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.25);
+
+      span {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      @media screen and (max-width: $tablet) {
+        //background-color: #485F69;
+        margin: 0 auto;
+        width: 90%;
+        height: 15vh;
+
+        span {
+          font-size: 1.5rem;
+        }
+
+        p {
+          margin: 0;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .slider {
+      height: 100%;
+      display: flex;
+      width: 85%;
+      //margin: auto;
+      //justify-content: center;
+      //align-items: center;
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+      }
+    }
+
+  }
+
+  .values::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .values::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border-radius: 1rem;
+  }
+
+  .values::-webkit-scrollbar-thumb {
+    background-color: #777;
+    border-radius: 4px;
+  }
+
+  .values::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+    border: 1px solid #333333;
+  }
+
+  .values::-webkit-scrollbar-thumb:active {
+    background-color: #666;
+    border: 1px solid #333333;
+  }
+}
+
+.containerDark {
+  @extend .container;
+  //background-color: $gris;
+
+  .nav {
+    color: #fff;
+  }
+
+  .info {
+    background-color: transparent !important;
+    box-shadow: 2px 0px 5px 0px rgba(255, 255, 255, 0.5) !important;
+    color: #fff;
+
+  }
+
+  .review {
+    color: #fff;
+    //background-color: $gris;
+  }
+
+  .related {
+    .more {
+      color: #fff !important;
+      //background-color: $verde !important;
+      box-shadow: 2px 0px 5px 0px rgba(255, 255, 255, 0.5) !important;
+    }
+  }
+
+  .values::-webkit-scrollbar-track {
+    background-color: $color;
+    border-radius: 1rem;
+  }
+}

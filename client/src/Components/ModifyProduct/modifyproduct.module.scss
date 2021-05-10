@@ -1,0 +1,62 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-size: 18px;
+    margin: 3px;
+  }
+  input {
+    font-size: 18px;
+    color: #9abf15;
+    margin-top: 5px;
+    outline: none;
+    background: transparent;
+    margin-bottom: 20px;
+    border: none;
+    width: 50%;
+    border-bottom: 1px solid #9abf15;
+  }
+  button {
+    border: 2px solid #9abf15;
+    background-color: transparent;
+    padding: 10px;
+    margin: 5%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: Roboto;
+    color: #9abf15;
+    &:hover {
+      cursor: pointer;
+      background-color: #9abf15;
+      color: #e4fcdb;
+    }
+
+  }
+}
+
+.categories {
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: row;
+  button {
+    background-color: transparent;
+    padding: 10px;
+    margin: 5%;
+    border-radius: 4px;
+    font-family: Roboto;
+    color: #9abf15;
+  }
+}
+
+.images {
+  display:flex;
+  flex-direction: row;
+  img {
+    width: 20%;
+  }
+}
+
+.miniature:hover{
+  filter: grayscale(100%)
+}

@@ -1,0 +1,137 @@
+$phone: 600px;
+$tablet:768px;
+$laptop:992px;
+$pc:1200px;
+$pcxl:1600px;
+// $dark:#2C3A40;
+$dark:#424242;
+$verde:#9abf15;
+$gris: #222;
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 185px);
+    width: 90%;
+    margin: 1rem auto;
+
+    @media screen and (max-width: $tablet) {
+
+        width: 100%;
+
+    }
+
+    .containerTitle {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+
+        @media screen and (max-width: $tablet) {
+
+            span {
+                font-size: 1.5rem;
+            }
+
+        }
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+
+        .containerP {
+            display: flex;
+            height: 25rem;
+            width: 100%;
+            margin: 1rem 0;
+
+            @media screen and (max-width: $tablet) {
+
+                flex-direction: column;
+                width: 100%;
+                margin: 2vh 0;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+
+            .title {
+                z-index: 2;
+                min-width: 15%;
+                background-color: #222;
+                color: white;
+                font-size: 1.5vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 6px 5px 18px 5px rgba(39, 39, 39, 0.25);
+
+                span {
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+
+
+                @media screen and (max-width: $tablet) {
+                    background-color: #222;
+                    margin: 0 auto;
+                    width: 90%;
+                    min-height: 4rem;
+                    z-index: 1;
+
+                    span {
+                        font-size: 1.5rem;
+                    }
+
+                    p {
+                        margin: 0;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+
+            .carousel {
+
+                width: 85%;
+                height: 100%;
+                display: flex;
+                //justify-content: center;
+                //align-items: center;
+
+                @media screen and (max-width: $tablet) {
+                    width: 90%;
+                }
+            }
+        }
+
+    }
+}
+
+.containerDark {
+    @extend .container;
+    background-color: $dark;
+    color: #fff;
+
+    .containerP {
+        .title {
+            color: #fff !important;
+            background-color: $gris !important;
+            box-shadow: 2px 0px 5px 0px rgba(255, 255, 255, 0.5) !important;
+        }
+    }
+}
+
+.img {
+    height: 10%;
+    width: 60%;
+}
